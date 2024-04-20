@@ -14,18 +14,19 @@ function Card() {
                     background: `url(${imageUrl})`,
                     "background-size": "cover",
                     "background-position": "top",
-                  }}
-                  >
+                }}
+            >
                 <Popular />
                 <Spotlight />
             </div>
-            <div style={{
-              // background: `url('src/assets/images/f.png')`,
-              // "background-size": "cover",
-              background:' linear-gradient(90deg, #263131 50% ,#0b0e0e 100%)'
-                }}>
-
-            <Trending />
+            <div
+                style={{
+                    
+                    background:
+                        " linear-gradient(90deg, #263131 50% ,#0b0e0e 100%)",
+                }}
+            >
+                <Trending />
             </div>
             <div
                 style={{

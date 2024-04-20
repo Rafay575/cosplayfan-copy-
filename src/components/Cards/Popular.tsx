@@ -2,13 +2,9 @@ import cardImg from "../../assets/images/card-image1.png";
 import flag from "../../assets/images/flag.png";
 
 const Popular = () => {
-    const imageUrl = "src/assets/images/bg1.png";
     return (
-        <div >
-            <div
-                class="w-full container lg:max-w-full lg:px-14 px-4 py-10 mx-auto "
-                
-            >
+        <div>
+            <div class="w-full container lg:max-w-full lg:px-14 px-4 py-10 mx-auto ">
                 <div class="flex items-center justify-between my-5">
                     <p class="text-white  font-clash-display-variable font-bold text-[24px] md:text-4xl">
                         Popular On{" "}

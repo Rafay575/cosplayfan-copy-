@@ -3,8 +3,7 @@ import flag from "../../assets/images/flag.png";
 
 const Trending = () => {
     return (
-        <div
-        >
+        <div>
             <div class="w-full container lg:max-w-full lg:px-14 px-4 py-10 mx-auto  ">
                 <div class="flex items-center justify-between">
                     <p class="text-white font-clash-display-variable font-bold text-[24px] md:text-4xl">
