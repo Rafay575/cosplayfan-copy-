@@ -1,0 +1,41 @@
+.background {
+  border-radius: 22px;
+  border: 1px solid #10e0f9;
+
+  background: linear-gradient(
+    180deg,
+    rgba(177, 77, 255, 0.15) 0%,
+    rgba(74, 114, 255, 0.15) 100%
+  );
+
+  backdrop-filter: blur(6px);
+}
+
+.btn1 {
+  border-radius: 12px;
+  border: 1px solid #10e0f9;
+
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btn2 {
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: linear-gradient(91deg, #4a72ff 1.64%, #b14dff 99.06%);
+}
+
+.backdrop {
+  background: rgba(0, 0, 0, 0.81);
+
+  backdrop-filter: blur(6px);
+}
+
+input {
+  width: 682px;
+  height: 39px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  padding: 10px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
