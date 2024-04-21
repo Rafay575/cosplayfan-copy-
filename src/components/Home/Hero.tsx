@@ -1,7 +1,7 @@
 import Header from "./Header";
 import HeroContents from "./HeroContents";
 
-    const imageUrl =  "src/assets/images/header.png";
+    const imageUrl =  "/images/Header.png";
     const headerStyle = `
       background: url(${imageUrl});
       height: 100vh;

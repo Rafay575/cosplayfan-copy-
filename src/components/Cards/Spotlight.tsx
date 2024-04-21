@@ -1,4 +1,4 @@
-import cardImg from "../../assets/images/card-image2.png";
+import cardImg from "/images/card-image2.png";
 import flame from "../../assets/svg/rose.svg";
 
 const Sportlight = () => {

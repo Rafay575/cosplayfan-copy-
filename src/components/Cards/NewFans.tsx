@@ -1,5 +1,5 @@
-import cardImg from "../../assets/images/card-image1.png";
-import flag from "../../assets/images/flag.png";
+import cardImg from "/images/card-image1.png";
+import flag from "/images/flag.png";
 
 const NewFans = () => {
     return (

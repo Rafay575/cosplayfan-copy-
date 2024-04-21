@@ -1,9 +1,9 @@
-import logo from "../assets/images/logo_single 1.png";
+import logo from "/images/logo_single 1.png";
 import Icons from "../assets/svg/footerIcons.svg";
 import CreditCards from "../assets/svg/creditcards.svg";
 
 const Footer = () => {
-  const imageUrl = "src/assets/images/footer-bg.png";
+  const imageUrl = "/images/footer-bg.png";
 
   return (
     <div class="footer pb-8 bg-no-repeat" style={{ 

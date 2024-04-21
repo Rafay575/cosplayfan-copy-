@@ -5,7 +5,7 @@ import Spotlight from "./Spotlight";
 import Trending from "./Trending";
 
 function Card() {
-    const imageUrl = "src/assets/images/bg1.png";
+    const imageUrl = "/images/bg1.png";
 
     return (
         <div class="w-full h-full">
