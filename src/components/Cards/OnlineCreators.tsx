@@ -4,8 +4,8 @@ import flag from "/images/flag.png";
 const OnlineCreators = () => {
     return (
         <div>
-            <div class="w-full container lg:max-w-full lg:px-14 px-4 py-10 mx-auto">
-                <div class="flex items-center justify-between">
+            <div class="w-full container lg:max-w-full lg:px-14 px-4 py-3 md:py-10 mx-auto">
+                <div class="flex items-center justify-center md:justify-between">
                     <p class="text-white font-clash-display-variable font-bold text-[24px] md:text-4xl">
                         Online{" "}
                         <span class="bg-gradient-to-r from-cyan-400 to-yellow-300 text-transparent bg-clip-text font-clash-display-variable font-bold text-[24px] md:text-4xl">
@@ -18,9 +18,9 @@ const OnlineCreators = () => {
                 </div>
                 {/* CARDS */}
 
-                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-10 mt-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-10 md:mt-8">
                     {[1, 2, 3, 4, 5, 6, 7, 8].map((_, i) => (
-                        <div class="relative">
+                        <div class="relative mt-3">
                             <img
                                 class="rounded-lg w-full h-[459.963px]"
                                 src={cardImg}

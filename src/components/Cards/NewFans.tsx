@@ -3,10 +3,10 @@ import flag from "/images/flag.png";
 
 const NewFans = () => {
     return (
-        <div class="w-full container lg:max-w-full lg:px-14 px-4 py-10 mx-auto pb-20">
-            <div class="flex items-center justify-between">
+        <div class="w-full container lg:max-w-full lg:px-14 px-4 pt-3 md:py-10 mx-auto pb-20">
+            <div class="flex items-center justify-center md:justify-between">
                 <p class="text-white font-clash-display-variable font-bold text-[24px] md:text-4xl">
-                    New to
+                    New to{" "}
                     <span class="bg-gradient-to-r from-yellow-300 to-cyan-400 text-transparent bg-clip-text font-clash-display-variable font-bold text-[24px] md:text-4xl">
                         Cosplay Fans
                     </span>
@@ -17,11 +17,11 @@ const NewFans = () => {
             </div>
             {/* CARDS */}
 
-            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-6 md:mt-8">
                 {[1, 2, 3, 4, 5, 6, 7, 8].map((_, i) => (
-                    <div class="relative">
+                    <div class="relative mt-3">
                         <img
-                            class="rounded-lg w-full h-[459.963px]"
+                            class="rounded-lg w-full h-[513.963px]"
                             src={cardImg}
                             alt="user"
                         />
@@ -58,7 +58,7 @@ const NewFans = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="text-cyan-400 bg-cyan-400/30 text-center font-clash-display-variable font-medium text-sm py-1 px-3 rounded-lg">
+                                <div class="text-cyan-400 bg-cyan-400/30 text-center font-clash-display-variable font-medium text-sm py-1 px-3 rounded-2xl">
                                     Megan Nix
                                 </div>
                             </div>

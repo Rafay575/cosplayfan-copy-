@@ -1,29 +1,62 @@
 import Header from "./Header";
 import HeroContents from "./HeroContents";
+import { createSignal, onCleanup } from "solid-js";
+// Create a signal to hold the image URL
 
-    const imageUrl =  "/images/Header.png";
+const Hero = () => {
+    const [imageUrl, setImageUrl] = createSignal(false);
+
+    // Function to update imageUrl based on device width
+    const updateImageUrl = () => {
+        if (window.innerWidth < 548) {
+            setImageUrl(true);
+            console.log("this is url of < 548 images ", window.innerWidth);
+        } else {
+            setImageUrl(false); // For desktop or larger devices
+            console.log("this is url of images ", window.innerWidth);
+        }
+    };
+
+    // Set initial imageUrl based on device width
+    updateImageUrl();
+
+    // Update imageUrl when window is resized
+    window.addEventListener("resize", updateImageUrl);
+
+    // Cleanup function to remove event listener
+    onCleanup(() => {
+        window.removeEventListener("resize", updateImageUrl);
+    });
     const headerStyle = `
-      background: url(${imageUrl});
+      background:  url('images/Header.png');
       height: 100vh;
-      background-size: cover;
+      background-size: 100% 100%;
+      background-repeat:no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      z-index:-1;
+  `;
+    const headerStyle1 = `
+      background:  url('images/Header1.png');
+      height: 100vh;
+      background-size: 180vw 100%;
       background-repeat:no-repeat;
       background-position: center;
       background-attachment: fixed;
       z-index:-1;
   `;
 
-    const Hero = () => {
-        return (
-            <div >
-                <section
-                    class="hero w-full h-screen bg-no-repeat bg-center bg-contain md:bg-fixed md:h-full "
-                    style={headerStyle}
-                >
-                    <Header />
-                    <HeroContents />
-                </section>
-            </div>
-        );
-    };
+    return (
+        <div>
+            <section
+                class="hero w-full h-screen bg-no-repeat bg-center bg-contain md:bg-fixed md:h-full "
+                style={imageUrl() ? headerStyle1 : headerStyle}
+            >
+                <Header />
+                <HeroContents />
+            </section>
+        </div>
+    );
+};
 
 export default Hero;

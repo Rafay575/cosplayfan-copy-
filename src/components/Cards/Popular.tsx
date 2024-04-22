@@ -2,15 +2,17 @@ import cardImg from "/images/card-image1.png";
 import flag from "/images/flag.png";
 
 const Popular = () => {
+   
+    const gradientClass = () => {
+        return `bg-gradient-to-r from-[#FF23FF] to-[#10E0F9] text-transparent bg-clip-text font-clash-display-variable font-bold text-[24px] md:text-4xl`;
+    };
     return (
         <div>
-            <div class="w-full container lg:max-w-full lg:px-14 px-4 py-10 mx-auto ">
-                <div class="flex items-center justify-between my-5">
+            <div class="w-full container lg:max-w-full lg:px-14 px-4 pt-4 md:py-10 mx-auto ">
+                <div class="flex items-center justify-center md:justify-between md:my-5 ">
                     <p class="text-white  font-clash-display-variable font-bold text-[24px] md:text-4xl">
                         Popular On{" "}
-                        <span class="bg-gradient-to-r from-purple-600 to-cyan-400 text-transparent bg-clip-text font-clash-display-variable font-bold text-[24px] md:text-4xl">
-                            Cosplay Fans
-                        </span>
+                        <span class={gradientClass()}>Cosplay Fans</span>
                     </p>
                     <button class="w-52 h-10 hidden md:block flex-shrink-0 rounded-lg bg-gradient-to-r from-purple-600 to-blue-600 text-white">
                         View All
@@ -18,11 +20,11 @@ const Popular = () => {
                 </div>
                 {/* CARDS */}
 
-                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-10 mt-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-10 mt-6 md:mt-8">
                     {[1, 2, 3, 4, 5, 6, 7, 8].map((_, i) => (
-                        <div class="relative">
+                        <div class="relative mt-3">
                             <img
-                                class="rounded-lg w-full h-[459.963px]"
+                                class="rounded-lg w-full h-[513.963px]"
                                 src={cardImg}
                                 alt="user"
                             />
@@ -59,7 +61,7 @@ const Popular = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="text-cyan-400 bg-cyan-400/30 text-center font-clash-display-variable font-medium text-sm py-1 px-3 rounded-lg">
+                                    <div class="text-cyan-400 bg-cyan-400/30 text-center font-clash-display-variable font-medium text-sm py-1 px-3 rounded-2xl">
                                         Megan Nix
                                     </div>
                                 </div>
