@@ -33,7 +33,7 @@ const Hero = () => {
       background-size: 100% 100%;
       background-repeat:no-repeat;
       background-position: center;
-      background-attachment: fixed;
+    
       z-index:-1;
   `;
     const headerStyle1 = `
@@ -42,7 +42,7 @@ const Hero = () => {
       background-size: 180vw 100%;
       background-repeat:no-repeat;
       background-position: center;
-      background-attachment: fixed;
+  
       z-index:-1;
   `;
 

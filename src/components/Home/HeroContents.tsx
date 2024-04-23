@@ -1,6 +1,6 @@
 import Image1 from "../../assets/svg/hero-img-1.svg";
 import FlameIcon from "../../assets/svg/flameIcon.svg";
-import UsersImage from "../../assets/svg/Hero-users.svg";
+import UsersImage from "../../assets/svg/bottomimage.svg";
 import { actions } from "../../store";
 
 const HeroContents = () => {
@@ -87,7 +87,7 @@ const HeroContents = () => {
                                 Generate Custom Content!
                             </p>
                         </div>
-                        <button class="py-3 px-5  text-[16px] hidden border md:block flex-shrink-0 rounded-lg bg-gradient-to-r m-0 md:mt-8 from-purple-600 to-blue-600 text-white">
+                        <button class="py-3 px-5  text-[20px] hidden border md:block flex-shrink-0 rounded-lg bg-gradient-to-r m-0 md:mt-8 from-purple-600 to-blue-600 text-white">
                             Register for free
                         </button>
                     </div>
@@ -95,7 +95,7 @@ const HeroContents = () => {
 
                 <div class="w-[180px] h-[120px] md:w-[600px] md:h-[335.57px] hidden md:flex relative items-center justify-start">
                     <img
-                        class="absolute top-[-100px] left-[-150px] w-[400px]"
+                        class="absolute top-[-100px] left-[-250px] w-[500px]"
                         src={Image1}
                         alt="hero-image"
                     />

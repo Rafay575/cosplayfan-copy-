@@ -6,13 +6,13 @@ const Sportlight = () => {
         <div>
             <div class="w-full container lg:max-w-full lg:px-14 px-4 py-1 md:py-10 mx-auto">
                 <div class="flex items-center justify-center md:justify-between">
-                    <p class="text-white font-clash-display-variable font-bold text-[24px] md:text-4xl">
+                    <p class="text-white font-clash-display-variable font-bold text-[28px] md:text-[52px]">
                         Creator
-                        <span class="bg-gradient-to-r from-[#913DFF] to-[#00FFA3] text-transparent bg-clip-text font-clash-display-variable font-bold text-[24px] ml-2 md:text-4xl">
+                        <span class="bg-gradient-to-r from-[#913DFF] to-[#00FFA3] text-transparent bg-clip-text font-clash-display-variable font-bold text-[28px] ml-2 md:text-[52px]">
                             Spotlight
                         </span>
                     </p>
-                    <button class="w-52 h-10 hidden md:block flex-shrink-0 rounded-lg bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+                    <button class="w-52 py-4 hidden md:block flex-shrink-0 rounded-lg bg-gradient-to-r from-purple-600 to-blue-600 text-white">
                         View All
                     </button>
                 </div>
@@ -20,7 +20,7 @@ const Sportlight = () => {
 
                 <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-10 mt-5 md:mt-8">
                     {[1, 2, 3, 4, 5, 6, 7, 8].map((_, i) => (
-                        <div class="mt-3">
+                        <div class="mt-3 group">
                             <div class="">
                                 <img
                                     class="rounded-t-lg w-full h-[459.963px]"
@@ -29,11 +29,8 @@ const Sportlight = () => {
                                 />
                             </div>
                             <div
-                                class={`rounded-b-lg w-full bottom-0 ${
-                                    i === 0
-                                        ? "bg-gradient-to-r from-purple-600 to-blue-600 backdrop-blur-2"
-                                        : "bg-gradient-to-r from-[#131725] via-[#181427] to-[#1e1124]"
-                                }`}
+                                class="rounded-b-lg w-full p-2 bg-black/40 bottom-0 group-hover:bg-gradient-to-r group-hover:from-purple-600 group-hover:to-blue-600 group-hover:backdrop-blur-2 bg-gradient-to-r from-[#131725]  to-[#1e1124]
+                                "
                             >
                                 <div class="flex items-center justify-between p-2">
                                     <span class="text-white font-[600] leading-[40px] text-[24px]">

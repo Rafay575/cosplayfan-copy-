@@ -5,36 +5,28 @@ import Spotlight from "./Spotlight";
 import Trending from "./Trending";
 
 function Card() {
-    const imageUrl = "/images/bg1.png";
+    const imageUrl = "images/main-bg.png";
 
     return (
-        <div class="w-full h-full">
+        <div class="w-full h-full bg-black">
             <div
                 style={{
                     background: `url(${imageUrl})`,
                     "background-size": "cover",
-                    "background-position": "top",
+                    "background-position":'center'
                 }}
             >
                 <Popular />
                 <Spotlight />
-            </div>
-            <div
-                style={{
-                    
-                    background:
-                        " linear-gradient(90deg, #263131 50% ,#0b0e0e 100%)",
-                }}
-            >
-                <Trending />
-            </div>
-            <div
-                style={{
-                    background: `url(${imageUrl})`,
-                    "background-size": "cover",
-                    "background-position": "top",
-                }}
-            >
+
+                <div
+                    style={{
+                        background:
+                            " linear-gradient(90deg, #263131 50% ,#0b0e0e 100%)",
+                    }}
+                >
+                    <Trending />
+                </div>
                 <OnlineCreators />
                 <NewFans />
             </div>
