@@ -19,7 +19,7 @@ const OnlineCreators = () => {
                 {/* CARDS */}
 
                 <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-6 md:mt-8">
-                    {[1, 2, 3, 4, 5, 6, 7, 8].map((_, i) => (
+                    {[1, 2, 3, 4, 5, 6, 7, 8].map((_) => (
                         <div class="relative mt-3 group">
                             <img
                                 class="rounded-lg w-full h-[513.963px] md:h-[460px] lg:h-[513.963px]"

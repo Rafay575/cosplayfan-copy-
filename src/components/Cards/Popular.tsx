@@ -20,7 +20,7 @@ const Popular = () => {
                 {/* CARDS */}
 
                 <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-6 mt-6 md:mt-8">
-                    {[1, 2, 3, 4, 5, 6, 7, 8].map((_, i) => (
+                    {[1, 2, 3, 4, 5, 6, 7, 8].map((_) => (
                         <div class="relative mt-3 group">
                             <img
                                 class="rounded-lg w-full h-[513.963px] md:h-[460px] lg:h-[513.963px]"
@@ -28,6 +28,7 @@ const Popular = () => {
                                 alt="user"
                             />
                             <div
+
                                 class={`rounded-b-lg absolute w-full bottom-0 bg-black/70 group-hover:bg-gradient-to-r from-purple-600 to-blue-600 group-hover:backdrop-blur-2`}
                             >
                                 <div class="flex items-center justify-between p-2">
