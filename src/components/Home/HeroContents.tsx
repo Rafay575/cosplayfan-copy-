@@ -102,7 +102,7 @@ const HeroContents = () => {
                 </div>
             </div>
 
-            <div class="md:h-[200px] my-2 2xl:my-4 hidden md:flex lg:hidden 2xl:flex">
+            <div class="md:h-[150px] my-2 2xl:my-4 hidden md:flex lg:hidden 2xl:flex">
                 <img src={UsersImage} alt="users" />
             </div>
             <a
