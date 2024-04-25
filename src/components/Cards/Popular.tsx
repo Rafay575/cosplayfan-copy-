@@ -3,13 +3,13 @@ import flag from "/images/flag.png";
 
 const Popular = () => {
     const gradientClass = () => {
-        return `bg-gradient-to-r from-[#FF23FF] to-[#10E0F9] text-transparent bg-clip-text font-clash-display-variable font-bold text-[28px] lg:text-[52px]`;
+        return `bg-gradient-to-r from-[#FF23FF] to-[#10E0F9] text-transparent bg-clip-text font-clash-display-variable font-bold text-[26px] lg:text-[52px]`;
     };
     return (
         <div>
             <div class="w-full container lg:max-w-full lg:px-14 px-4 pt-4 md:py-10 mx-auto ">
                 <div class="flex items-center justify-center md:justify-between md:my-5 ">
-                    <p class="text-white  font-clash-display-variable font-bold text-[28px] lg:text-[52px]">
+                    <p class="text-white  font-clash-display-variable font-bold text-[26px] lg:text-[52px]">
                         Popular On{" "}
                         <span class={gradientClass()}>Cosplay Fans</span>
                     </p>

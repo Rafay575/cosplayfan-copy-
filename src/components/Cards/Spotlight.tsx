@@ -6,9 +6,9 @@ const Sportlight = () => {
         <div>
             <div class="w-full container lg:max-w-full lg:px-14 px-4 py-1 md:py-10 mx-auto">
                 <div class="flex items-center justify-center md:justify-between">
-                    <p class="text-white font-clash-display-variable font-bold text-[28px] lg:text-[52px]">
+                    <p class="text-white font-clash-display-variable font-bold text-[26px] lg:text-[52px]">
                         Creator
-                        <span class="bg-gradient-to-r from-[#913DFF] to-[#00FFA3] text-transparent bg-clip-text font-clash-display-variable font-bold text-[28px] ml-2 lg:text-[52px]">
+                        <span class="bg-gradient-to-r from-[#913DFF] to-[#00FFA3] text-transparent bg-clip-text font-clash-display-variable font-bold text-[26px] ml-2 lg:text-[52px]">
                             Spotlight
                         </span>
                     </p>

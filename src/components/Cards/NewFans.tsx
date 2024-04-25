@@ -5,9 +5,9 @@ const NewFans = () => {
     return (
         <div class="w-full container lg:max-w-full lg:px-14 px-4 pt-3 md:py-10 mx-auto pb-20">
             <div class="flex items-center justify-center md:justify-between">
-                <p class="text-white font-clash-display-variable font-bold text-[28px] lg:text-[52px]">
+                <p class="text-white font-clash-display-variable font-bold text-[26px] lg:text-[52px]">
                     New to{" "}
-                    <span class="bg-gradient-to-r from-yellow-300 to-cyan-400 text-transparent bg-clip-text font-clash-display-variable font-bold text-[28px] lg:text-[52px]">
+                    <span class="bg-gradient-to-r from-yellow-300 to-cyan-400 text-transparent bg-clip-text font-clash-display-variable font-bold text-[26px] lg:text-[52px]">
                         Cosplay Fans
                     </span>
                 </p>
