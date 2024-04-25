@@ -29,7 +29,7 @@ const Hero = () => {
     });
     const headerStyle = `
       background:  url('images/Header.png');
-      height: 100vh;
+   
       background-size: 100% 100vh;
       background-repeat:no-repeat;
       background-position: center;
@@ -38,7 +38,6 @@ const Hero = () => {
   `;
     const headerStyle1 = `
       background:  url('images/Header1.png');
-      height: 100vh;
       background-size: cover;
       background-repeat:no-repeat;
       background-position: center;
@@ -49,7 +48,7 @@ const Hero = () => {
     return (
         <div>
             <section
-                class="hero w-full h-screen bg-no-repeat bg-center bg-contain md:bg-fixed md:h-full "
+                class="hero w-full pb-10 bg-no-repeat bg-center bg-contain md:bg-fixed  "
                 style={imageUrl() ? headerStyle1 : headerStyle}
             >
                 <Header />
