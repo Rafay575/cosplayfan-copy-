@@ -5,22 +5,22 @@ import { actions } from "../../store";
 
 const HeroContents = () => {
     return (
-        <div class="container lg:max-w-full lg:px-14 py-4 mx-auto px-4 h-full">
+        <div class="container lg:max-w-full lg:px-14 py-4 mx-auto px-4 ">
             <div class="flex">
                 <div class="md:w-1/2">
-                    <div class="lg:w-3/4">
-                        <h1 class="text-cyan-400 text-shadow font-semibold text-3xl text-[16px] lg:text-[30px]">
+                    <div class="lg:w-4/5">
+                        <h1 class="text-cyan-400 text-shadow font-semibold text-3xl text-[16px] md:text-[26px] lg:text-[22px]  xl:text-[30px]">
                             FEATURED CREATOR
                         </h1>
-                        <h1 class="text-white text-shadow font-bold text-3xl  lg:text-[60px] md:mt-8">
+                        <h1 class="text-white text-shadow font-bold text-3xl md:text-[48px] lg:text-[42px]  xl:text-[60px] md:mt-4 xl:mt-8">
                             Candice Nice 
-                            <span class="lg:text-[48px] text-[16px]">as</span>
+                            <span class="md:text-[32px] lg:text-[40px] xl:text-[48px] text-[16px]">as</span>
                         </h1>
-                        <div class=" w-[150px] md:hidden mt-0 ">
+                        <div class=" w-[150px] md:w-[350px] lg:hidden mt-0 ">
                             <img class="" src={Image1} alt="hero-image" />
                         </div>
                         {/* large screen */}
-                        <p class="text-white hidden md:block font-clash-display-variable font-medium text-[20px] leading-[34px] mt-4">
+                        <p class="text-white hidden lg:block font-clash-display-variable font-medium text-[16px] 2xl:text-[20px] leading-[34px] mt-4 text-justify">
                             With her infectious energy and impeccable attention
                             to detail, she brings the iconic character to life
                             in a whirlwind of color and chaos. From her playful
@@ -34,7 +34,7 @@ const HeroContents = () => {
                                 Read More
                             </a>
                         </p>
-                        <div class="hidden md:flex items-center gap-2 mt-8">
+                        <div class="hidden lg:flex items-center gap-2 mt-8">
                             <img
                                 class="md:w-[35px] md:h-[35px]"
                                 src={FlameIcon}
@@ -46,7 +46,7 @@ const HeroContents = () => {
                             </p>
                         </div>
 
-                        <div class="hidden md:flex items-center gap-2 mt-4">
+                        <div class="hidden lg:flex items-center gap-2 mt-4">
                             <img
                                 class="md:w-[35px] md:h-[35px]"
                                 src={FlameIcon}
@@ -57,7 +57,7 @@ const HeroContents = () => {
                             </p>
                         </div>
                         {/* small screen */}
-                        <div class="flex block md:hidden items-center gap-2 mt-20">
+                        <div class="flex block lg:hidden items-center gap-2 mt-20">
                             <img
                                 class="w-[26px] h-[26px] md:w-[35px] md:h-[35px]"
                                 src={FlameIcon}
@@ -67,7 +67,7 @@ const HeroContents = () => {
                                 Voice Calling 24/7
                             </p>
                         </div>
-                        <div class="flex block md:hidden items-center gap-2 mt-3">
+                        <div class="flex block lg:hidden items-center gap-2 mt-3">
                             <img
                                 class="w-[26px] h-[26px] md:w-[35px] md:h-[35px]"
                                 src={FlameIcon}
@@ -77,7 +77,7 @@ const HeroContents = () => {
                                 Live Chat 24/7
                             </p>
                         </div>
-                        <div class="flex block md:hidden items-center gap-2 mt-3">
+                        <div class="flex block lg:hidden items-center gap-2 mt-3">
                             <img
                                 class="w-[26px] h-[26px] md:w-[35px] md:h-[35px]"
                                 src={FlameIcon}
@@ -93,20 +93,20 @@ const HeroContents = () => {
                     </div>
                 </div>
 
-                <div class="w-[180px] h-[120px] md:w-[600px] md:h-[335.57px] hidden md:flex relative items-center justify-start">
+                <div class="w-[180px] h-[120px] md:w-[600px] md:h-[335.57px] hidden lg:flex relative items-center justify-start">
                     <img
-                        class="absolute top-[-100px] left-[-250px] w-[500px]"
+                        class="absolute top-[-100px] left-[-100px] 2xl:left-[-200px] w-[400px] 2xl:w-[500px]"
                         src={Image1}
                         alt="hero-image"
                     />
                 </div>
             </div>
 
-            <div class="my-8 hidden md:flex">
+            <div class="md:h-[200px] my-4 hidden md:flex lg:hidden 2xl:flex">
                 <img src={UsersImage} alt="users" />
             </div>
             <a
-                class="text-[#F00] hover:underline hidden md:flex items-center gap-1 "
+                class="text-[#F00] hover:underline hidden md:flex lg:hidden 2xl:flex items-center gap-1 "
                 href=""
             >
                 See Profie{" "}

@@ -8,7 +8,7 @@ const Hero = () => {
 
     // Function to update imageUrl based on device width
     const updateImageUrl = () => {
-        if (window.innerWidth < 548) {
+        if (window.innerWidth < 992) {
             setImageUrl(true);
             console.log("this is url of < 548 images ", window.innerWidth);
         } else {
@@ -30,7 +30,7 @@ const Hero = () => {
     const headerStyle = `
       background:  url('images/Header.png');
       height: 100vh;
-      background-size: 100% 100%;
+      background-size: 100% 100vh;
       background-repeat:no-repeat;
       background-position: center;
     
@@ -39,7 +39,7 @@ const Hero = () => {
     const headerStyle1 = `
       background:  url('images/Header1.png');
       height: 100vh;
-      background-size: 180vw 100%;
+      background-size: cover;
       background-repeat:no-repeat;
       background-position: center;
   

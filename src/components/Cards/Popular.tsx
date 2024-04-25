@@ -3,27 +3,27 @@ import flag from "/images/flag.png";
 
 const Popular = () => {
     const gradientClass = () => {
-        return `bg-gradient-to-r from-[#FF23FF] to-[#10E0F9] text-transparent bg-clip-text font-clash-display-variable font-bold text-[28px] md:text-[52px]`;
+        return `bg-gradient-to-r from-[#FF23FF] to-[#10E0F9] text-transparent bg-clip-text font-clash-display-variable font-bold text-[28px] lg:text-[52px]`;
     };
     return (
         <div>
             <div class="w-full container lg:max-w-full lg:px-14 px-4 pt-4 md:py-10 mx-auto ">
                 <div class="flex items-center justify-center md:justify-between md:my-5 ">
-                    <p class="text-white  font-clash-display-variable font-bold text-[28px] md:text-[52px]">
+                    <p class="text-white  font-clash-display-variable font-bold text-[28px] lg:text-[52px]">
                         Popular On{" "}
                         <span class={gradientClass()}>Cosplay Fans</span>
                     </p>
-                    <button class="w-52 py-4 hidden md:block flex-shrink-0 rounded-lg bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+                    <button class="w-52 py-2 lg:py-4 hidden md:block flex-shrink-0 rounded-lg bg-gradient-to-r from-purple-600 to-blue-600 text-white">
                         View All
                     </button>
                 </div>
                 {/* CARDS */}
 
-                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-10 mt-6 md:mt-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-6 mt-6 md:mt-8">
                     {[1, 2, 3, 4, 5, 6, 7, 8].map((_, i) => (
                         <div class="relative mt-3 group">
                             <img
-                                class="rounded-lg w-full h-[513.963px]"
+                                class="rounded-lg w-full h-[513.963px] md:h-[460px] lg:h-[513.963px]"
                                 src={cardImg}
                                 alt="user"
                             />

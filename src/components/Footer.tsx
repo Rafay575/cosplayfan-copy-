@@ -11,7 +11,6 @@ const Footer = () => {
             style={{
                 background: `url(${imageUrl})`,
                 "background-size": "cover",
-                // height:'164px',
                 "background-position": "center",
             }}
         >
@@ -29,89 +28,89 @@ const Footer = () => {
                     </p>
                 </div>
 
-                <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-20 lg:justify-items-stretch">
+                <div class="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-20 lg:justify-items-stretch">
                     <div class="item1 flex flex-col gap-4">
-                        <h1 class="text-[#4A72FF] text-[18px] md:text-[30px] font-[700]">
+                        <h1 class="text-[#4A72FF] text-[18px] md:text-[22px] 2xl:text-[30px] font-[700]">
                             Information
                         </h1>
                         <a
-                            class="text-white text-[14px] md:text-[18px] md:font-[600]"
+                            class="text-white text-[14px] md:text-[16px] 2xl:text-[18px] md:font-[600]"
                             href=""
                         >
                             Live Chat
                         </a>
                         <a
-                            class="text-white text-[14px] md:text-[18px] md:font-[600]"
+                            class="text-white text-[14px] md:text-[16px] 2xl:text-[18px] md:font-[600]"
                             href=""
                         >
                             Creators
                         </a>
                         <a
-                            class="text-white text-[14px] md:text-[18px] md:font-[600]"
+                            class="text-white text-[14px] md:text-[16px] 2xl:text-[18px] md:font-[600]"
                             href=""
                         >
                             FAQs
                         </a>
                         <a
-                            class="text-white text-[14px] md:text-[18px] md:font-[600]"
+                            class="text-white text-[14px] md:text-[16px] 2xl:text-[18px] md:font-[600]"
                             href=""
                         >
                             Blog
                         </a>
                     </div>
                     <div class="item2 flex flex-col gap-4 lg:ml-20">
-                        <h1 class="text-[#4A72FF] text-[18px] md:text-[30px] font-[700]">
+                        <h1 class="text-[#4A72FF] text-[18px] md:text-[22px] 2xl:text-[30px] font-[700]">
                             Privacy Policy
                         </h1>
                         <a
-                            class="text-white text-[14px] md:text-[18px] md:font-[600]"
+                            class="text-white text-[14px] md:text-[16px] 2xl:text-[18px] md:font-[600]"
                             href=""
                         >
                             Terms of Service
                         </a>
                         <a
-                            class="text-white text-[14px] md:text-[18px] md:font-[600]"
+                            class="text-white text-[14px] md:text-[16px] 2xl:text-[18px] md:font-[600]"
                             href=""
                         >
                             2257 Statement
                         </a>
                         <a
-                            class="text-white text-[14px] md:text-[18px] md:font-[600]"
+                            class="text-white text-[14px] md:text-[16px] 2xl:text-[18px] md:font-[600]"
                             href=""
                         >
                             DMCA Policy
                         </a>
                         <a
-                            class="text-white text-[14px] md:text-[18px] md:font-[600]"
+                            class="text-white text-[14px] md:text-[16px] 2xl:text-[18px] md:font-[600]"
                             href=""
                         >
                             Buyer/Seller Agreements
                         </a>
                     </div>
                     <div class="item3 flex flex-col gap-4 lg:ml-40">
-                        <h1 class="text-[#4A72FF] text-[18px] md:text-[30px] font-[700]">
+                        <h1 class="text-[#4A72FF] text-[18px] md:text-[22px] 2xl:text-[30px] font-[700]">
                             Contact Us
                         </h1>
                         <a
-                            class="text-white text-[14px] md:text-[18px] md:font-[600]"
+                            class="text-white text-[14px] md:text-[16px] 2xl:text-[18px] md:font-[600]"
                             href=""
                         >
                             Billing
                         </a>
                         <a
-                            class="text-white text-[14px] md:text-[18px] md:font-[600]"
+                            class="text-white text-[14px] md:text-[16px] 2xl:text-[18px] md:font-[600]"
                             href=""
                         >
                             Support
                         </a>
                         <a
-                            class="text-white text-[14px] md:text-[18px] md:font-[600]"
+                            class="text-white text-[14px] md:text-[16px] 2xl:text-[18px] md:font-[600]"
                             href=""
                         >
                             Become a Creator
                         </a>
                     </div>
-                    <div class="item4 flex justify-end">
+                    <div class="item4 flex lg:justify-end">
                         <img src={Icons} alt="brands" class="m-0 p-0" />
                     </div>
                 </div>
